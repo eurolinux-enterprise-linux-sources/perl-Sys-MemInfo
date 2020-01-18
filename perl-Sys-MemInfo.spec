@@ -1,6 +1,6 @@
 Name:           perl-Sys-MemInfo
 Version:        0.91
-Release:        5%{?dist}
+Release:        7%{?dist}
 Summary:        Memory information as Perl module
 # README:       GPLv1+ or Artistic
 # MemInfo.pm    LGPLv2+
@@ -48,6 +48,12 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.91-7
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.91-6
+- Mass rebuild 2013-12-27
+
 * Mon Nov 05 2012 Petr Pisar <ppisar@redhat.com> - 0.91-5
 - Change license from (LGPLv2+) to ((GPLv1+ or Artistic) and LGPLv2+)
   (CPAN RT #80636)
